@@ -1,6 +1,10 @@
 # Exit-Program-Loop
 This script is a simple program that prompts the user to type a response and then prints the response back to the user. The script will continue to prompt the user for a response until the user types 'exit', at which point the script will exit.
 
+## Description
+This program is a simple script that runs an infinite while loop that repeatedly prompts the user to type in a response and then prints out the response. The program imports the sys module and uses its exit() function to break out of the infinite loop when the user types in "exit" as their response. The user can type any string to interact with the program, when the user types "exit", the program will terminate using sys.exit() function. The program uses the input() function to get the user's response and assigns it to the variable "response". Then it checks if the response is equal to "exit" using an if statement. If the response is "exit", the program will exit by calling the sys.exit() function, otherwise, it will print "your typed 'response'."
+
+
 ## Requirements
 This script requires Python3 to be installed on the system.
 
